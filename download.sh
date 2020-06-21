@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Datei modifiziert von Zhuno
+
+# Ursprüngliche Datei:
 # jumpstart.sh: Fetches BaseSystem and converts it to a viable format.
 # by Foxlet <foxlet@furcode.co>
 
@@ -9,9 +12,9 @@ print_usage() {
     echo
     echo "Usage: $0"
     echo
-    echo " -s, --high-sierra   Fetch High Sierra media."
-    echo " -m, --mojave        Fetch Mojave media."
-    echo " -c, --catalina      Fetch Catalina media."
+    echo " -s, --high-sierra   Lädt macOS High Sierra herunter"
+    echo " -m, --mojave        Lädt macOS Mojave herunter"
+    echo " -c, --catalina      Lädt macOS Catalina herunter"
     echo
 }
 
