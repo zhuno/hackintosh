@@ -1,5 +1,5 @@
 
-# macOS in einer virtuellen Umgebung einrichten (Hackintosh KVM)
+# 🖥 macOS in einer virtuellen Umgebung einrichten (Hackintosh KVM)
 
 ## Vorwort
 In dieser Repository findest du alles, was du dazu benötigst, um ein Hackintosh-System in einer KVM-Umgebung aufzusetzen. Mein Tutorial beruft sich hierbei auf die öffentlich zur Verfügung gestellten Ressourcen von:
