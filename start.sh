@@ -14,7 +14,7 @@ qemu-system-x86_64 \
 	# -/-
     -machine q35,accel=kvm \
     # CPU-Konfiguration
-    -smp 4,cores=4 \
+    -smp cores=2,threads=4,sockets=1 \
     # -/-
     -cpu Penryn,vendor=GenuineIntel,kvm=on,+sse3,+sse4.2,+aes,+xsave,+avx,+xsaveopt,+xsavec,+xgetbv1,+avx2,+bmi2,+smep,+bmi1,+fma,+movbe,+invtsc \
     -device isa-applesmc,osk="$OSK" \
